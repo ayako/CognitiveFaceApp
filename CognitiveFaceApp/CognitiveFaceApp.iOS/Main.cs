@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace CognitiveFaceApp1.iOS
+namespace CognitiveFaceApp.iOS
 {
     public class Application
     {

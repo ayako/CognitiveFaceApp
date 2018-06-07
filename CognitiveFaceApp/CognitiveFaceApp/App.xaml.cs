@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace CognitiveFaceApp1
+namespace CognitiveFaceApp
 {
 	public partial class App : Application
 	{
@@ -13,7 +13,7 @@ namespace CognitiveFaceApp1
 		{
 			InitializeComponent();
 
-			MainPage = new CognitiveFaceApp1.MainPage();
+			MainPage = new CognitiveFaceApp.MainPage();
 		}
 
 		protected override void OnStart ()

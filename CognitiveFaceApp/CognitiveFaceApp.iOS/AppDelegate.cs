@@ -8,7 +8,7 @@ using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 
-namespace CognitiveFaceApp1.iOS
+namespace CognitiveFaceApp.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 
@@ -26,7 +26,6 @@ namespace CognitiveFaceApp1.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             AppCenter.Start("847f2292-1bc3-4aff-bf8d-b477a79ab8c1", typeof(Analytics), typeof(Crashes));
-
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

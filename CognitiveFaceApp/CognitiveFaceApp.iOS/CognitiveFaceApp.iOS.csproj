@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3361D36B-5732-4DC3-84A3-706CEB8E4D25}</ProjectGuid>
+    <ProjectGuid>{15CB8D1C-B6DF-4549-9220-40C47EB51AB3}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CognitiveFaceApp1.iOS</RootNamespace>
+    <RootNamespace>CognitiveFaceApp.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>CognitiveFaceApp1.iOS</AssemblyName>
+    <AssemblyName>CognitiveFaceApp.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -134,9 +134,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\CognitiveFaceApp1\CognitiveFaceApp1.csproj">
-      <Project>{7BE836FF-82FB-429D-A65B-F66E0DEDBD3E}</Project>
-      <Name>CognitiveFaceApp1</Name>
+    <ProjectReference Include="..\CognitiveFaceApp\CognitiveFaceApp.csproj">
+      <Project>{391F5DE0-BA11-438D-A55C-7B09D7C2A716}</Project>
+      <Name>CognitiveFaceApp</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
