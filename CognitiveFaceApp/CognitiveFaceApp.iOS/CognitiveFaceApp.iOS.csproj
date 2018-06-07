@@ -132,11 +132,11 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\CognitiveFaceApp\CognitiveFaceApp.csproj">
-      <Project>{391F5DE0-BA11-438D-A55C-7B09D7C2A716}</Project>
+      <Project>{ec15e9fb-bdff-41ae-8db7-96f965845a0c}</Project>
       <Name>CognitiveFaceApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
