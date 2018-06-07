@@ -26,13 +26,13 @@ namespace CognitiveFaceApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
 
-            AppCenter.Start("847f2292-1bc3-4aff-bf8d-b477a79ab8c1", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("3c832b89-7c5d-41d4-b366-da8fd0a5530a",
+                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("3c832b89-7c5d-41d4-b366-da8fd0a5530a", typeof(Analytics), typeof(Crashes));
 
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }
-    }
-
 }
