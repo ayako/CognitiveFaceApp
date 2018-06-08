@@ -43,7 +43,7 @@ namespace CognitiveFaceApp
 
             // 画像の判定
             ImagePreview.Source = photo;
-            var faceResult = new FaceDetectResult();
+            FaceDetectResult faceResult;
 
             try
             {
@@ -118,7 +118,7 @@ namespace CognitiveFaceApp
 
             var attributes = new FaceAttributeType[] {
                 FaceAttributeType.Age,FaceAttributeType.Gender,FaceAttributeType.Smile,
-            };
+                };
             var result = await client.DetectAsync(imageStream, false, false, attributes);
 
             // 判定結果を代入
@@ -130,6 +130,5 @@ namespace CognitiveFaceApp
 
             return detectResult;
         }
-
     }
 }
